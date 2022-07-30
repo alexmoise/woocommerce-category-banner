@@ -5,7 +5,7 @@
  * Plugin URI: https://github.com/alexmoise/woocommerce-category-banner
  * GitHub Plugin URI: https://github.com/alexmoise/woocommerce-category-banner
  * Description: Place a custom banner and link at the top of your product category pages. Easily update the image through your product category edit page. For details/troubleshooting please contact me at <a href="https://moise.pro/contact/">https://moise.pro/contact/</a>
- * Version: 1.2.0
+ * Version: 1.2.1
  * Author: WP BackOffice
  * Author URI: http://www.wpbackoffice.com
  * WC requires at least: 3.5.0
@@ -33,7 +33,7 @@ class WCB_Category_Banner {
 		add_action( 'edited_product_cat', array( $this, 'wcb_product_cat_save_taxonomy_custom_fields'), 10, 2 );  
 
 		// Add a banner image based on category taxonomy image, only if it's set to auto show (default)
-		add_action( 'woocommerce_before_main_content', array( $this, 'wcb_show_category_banner'), 30 );
+		add_action( 'genesis_before_content', array( $this, 'wcb_show_category_banner'), 10 );
 
 	}
 
