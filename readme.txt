@@ -4,7 +4,7 @@ Tags: woocommerce, category, product, banner, image, archive, shop
 Donate Link: http://wpbackoffice.com/plugins/woocommerce-category-banner/
 Requires at least: 3.5
 Tested up to: 670
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,6 +45,9 @@ Manual Installation
 4. Done, now start uploading a banner image from 'Products' -> 'Categories' -> (Select category)
 
 == Changelog ==
+
+= 1.2.1 =
+* Changed banner hook for genesis_before_content
 
 = 1.2.0 =
 * Updated the JS file for jQuery v3.6.0 compatibility
