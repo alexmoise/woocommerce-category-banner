@@ -1,9 +1,11 @@
 jQuery( document ).ready(function($) {
 
 	/*
-	*	 Handle WCB Image Uploading
+	* Handle WCB Image Uploading
+	* Version 1.2
+	* (version above is equal with main plugin file version when this file was updated)
 	*/
-	$('.wcb_upload_file_button').live('click', function( event ){
+	$('.wcb_upload_file_button').on('click', function( event ){
 	
 		event.preventDefault();
 
@@ -40,7 +42,7 @@ jQuery( document ).ready(function($) {
 	/*
 	*	Remove file when selected
 	*/
-	$('.wcb_remove_file').live('click', function( event ){
+	$('.wcb_remove_file').on('click', function( event ){
 	console.log( "Remove File");
 		$('.banner_url_label').text( '' );
 		$('.wcb_image').attr( 'value', '' );

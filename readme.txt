@@ -1,10 +1,10 @@
 === WooCommerce Category Banner  ===
-Contributors: wpbackoffice
+Contributors: wpbackoffice, alexmoise
 Tags: woocommerce, category, product, banner, image, archive, shop
 Donate Link: http://wpbackoffice.com/plugins/woocommerce-category-banner/
 Requires at least: 3.5
-Tested up to: 4.0.1
-Stable tag: 1.1.2
+Tested up to: 670
+Stable tag: 1.2.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,7 +27,7 @@ Getting Started:
 2. Select an individual category from your list
 3. Paste the url of the banner you'd like to use into the "Banner Image Url" field
 4. That's it, your banner should now be displaying on your category archive page.
-5. Remove image by deleting the url from the edit category page.
+5. Remove image by clicking the Remove File button from the edit category page.
 
 You can hide the automatic image placement by unchecking "Automatically insert banner above main content"
 
@@ -37,23 +37,17 @@ You can then place the template tag wcb_show_category_banner() in your custom ca
 
 == Installation ==
 
-Automatic WordPress Installation
-
-1. Log-in to your WordPress Site
-2. Under the plugin sidebar tab, click ‘Add New’
-3. Search for ‘WooCommerce Category Banner'
-4. Install and Activate the Plugin
-5. Start uploading a banner image from 'Products' -> 'Categories' -> (Select category)
-
 Manual Installation
 
-1. Download the latest version of the plugin from WordPress page
-2. Uncompress the file
-3. Upload the uncompressed directory to ‘/wp-content/plugins/’ via FTP
-4. Active the plugin from your WordPress backend ‘Plugins -> Installed Plugins’
-5. Start uploading a banner image from 'Products' -> 'Categories' -> (Select category)
+1. Download the latest version of the plugin from the GitHub page
+2. Go to Plugins -> Add New section in your WP admin dashboard, click Upload Plugin and upload the zip file downloaded in the previous step
+3. Click Install Now, then click Activate Plugin
+4. Done, now start uploading a banner image from 'Products' -> 'Categories' -> (Select category)
 
 == Changelog ==
+
+= 1.2.0 =
+* Updated the JS file for jQuery v3.6.0 compatibility
 
 = 1.1.2 =
 * Bug fix, notice was appearing with WP DEBUG set to true

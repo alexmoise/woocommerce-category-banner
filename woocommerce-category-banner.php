@@ -1,12 +1,16 @@
 <?php
-/*
-Plugin Name: WooCommerce Category Banner
-Plugin URI: http://www.wpbackoffice.com/plugins/woocommerce-category-banner/
-Description: Place a custom banner and link at the top of your product category pages. Easily update the image through your product category edit page.
-Version: 1.1.2
-Author: WP BackOffice
-Author URI: http://www.wpbackoffice.com
-*/ 
+
+/**
+ * Plugin Name: WooCommerce Category Banner
+ * Plugin URI: https://github.com/alexmoise/woocommerce-category-banner
+ * GitHub Plugin URI: https://github.com/alexmoise/woocommerce-category-banner
+ * Description: Place a custom banner and link at the top of your product category pages. Easily update the image through your product category edit page. For details/troubleshooting please contact me at <a href="https://moise.pro/contact/">https://moise.pro/contact/</a>
+ * Version: 1.2.0
+ * Author: WP BackOffice
+ * Author URI: http://www.wpbackoffice.com
+ * WC requires at least: 3.5.0
+ * WC tested up to: 6.7.0
+ */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
